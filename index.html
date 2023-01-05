@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <base href="https://cdn.shopify.com/s/files/1/0499/1670/6968/products/" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://127.0.0.1:5500/mystyles.css"
+    />
+    <link rel="icon" type="image.png" href="http://127.0.0.1:5500/logo.png" />
+    <script>
+      function show() {
+        alert("Good Evening!");
+        document.bgColor = "yellow";
+        document.getElementById("p2").innerHTML = new Date();
+      }
+    </script>
+  </head>
+  <body>
+    <p>C course</p>
+    <img src="Clanguage_590x.jpg?v=1603797117" />
+    <p>Python course</p>
+    <img src="pythonlearncopy_590x.png?v=1603910826" />
+    <p>My image</p>
+    <img src="http://127.0.0.1:5500/welcome.png" /><br />
+    <p>SCA was established in 1998</p>
+    <p id="p2">
+      SCA targets to provide quality technical training to IT aspirants
+    </p>
+    <input type="button" value="Click me" onclick="show()" />
+  </body>
+</html>
